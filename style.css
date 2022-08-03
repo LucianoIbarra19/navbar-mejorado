@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 8rem;
+}
+
+.Esparta{
+    height: 60px;
+    width: 60px;
+}
+
+.contenedor{
+    padding-right: 25px;
+}
+
+.contenedor a{
+    text-decoration: none;
+    color: black;
+    padding-right: 15px;
+    font-family: 'Playfair Display', serif;
+}
+
+.contenedor a:hover{
+    cursor: pointer;
+    color: wheat;
+    transition: 0.3s ease;
+}
